@@ -1,9 +1,0 @@
--lc++
--fobjc-link-runtime
--Wl,-S
--o
-bazel-out/darwin-fastbuild/bin/hello/wowza
-bazel-out/darwin-fastbuild/bin/hello/_objs/wowza/main.o
--headerpad_max_install_names
--no-canonical-prefixes
--mmacosx-version-min=11.1
