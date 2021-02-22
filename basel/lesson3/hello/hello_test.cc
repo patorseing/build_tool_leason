@@ -1,4 +1,5 @@
 #include "hello.hh"
+#include <cassert>
 
 int main() {
   Hello hello;

@@ -9,7 +9,30 @@ lesson2 : <https://youtu.be/0kh_X6TwijE>\
 lesson3 : <https://youtu.be/TiwZOz1Ht7g>\
 lesson4 : <https://youtu.be/dhZo08a-SIQ>\
 
-#### Lesson 4: query and graph
+#### Lesson 1: build
+
+```bash
+cd  lesson1/hello
+bazel build ...
+cd ..
+bazel build //hello:wowza
+```
+
+#### Lesson 2: run
+
+```bash
+cd  lesson2
+bazel run //hello:wowza
+```
+
+#### Lesson 3: test
+
+```bash
+cd  lesson3/hello
+bazel test hello-test
+```
+
+#### Lesson 4: query
 
 ```bash
 mkdir lesson4
