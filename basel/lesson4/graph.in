@@ -1,0 +1,10 @@
+digraph mygraph {
+  node [shape=box];
+  "//hello:wowza"
+  "//hello:wowza" -> "//hello:hello_lib"
+  "//hello:wowza" -> "//hello:main.cc"
+  "//hello:main.cc"
+  "//hello:hello_lib"
+  "//hello:hello_lib" -> "//hello:hello.cc\n//hello:hello.hh"
+  "//hello:hello.cc\n//hello:hello.hh"
+}
