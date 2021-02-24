@@ -2,14 +2,14 @@
 
 ## Bazel
 
-### Lesson
+### Bazel Lesson
 
 lesson1 : <https://youtu.be/5hXj11l5Xy4>\
 lesson2 : <https://youtu.be/0kh_X6TwijE>\
 lesson3 : <https://youtu.be/TiwZOz1Ht7g>\
-lesson4 : <https://youtu.be/dhZo08a-SIQ>\
+lesson4 : <https://youtu.be/dhZo08a-SIQ>
 
-#### Lesson 1: build
+#### Bazel Lesson 1: build
 
 ```bash
 cd  lesson1/hello
@@ -18,21 +18,21 @@ cd ..
 bazel build //hello:wowza
 ```
 
-#### Lesson 2: run
+#### Bazel Lesson 2: run
 
 ```bash
 cd  lesson2
 bazel run //hello:wowza
 ```
 
-#### Lesson 3: test
+#### Bazel Lesson 3: test
 
 ```bash
 cd  lesson3/hello
 bazel test hello-test
 ```
 
-#### Lesson 4: query
+#### Bazel Lesson 4: query
 
 ```bash
 mkdir lesson4
@@ -43,3 +43,20 @@ dot -Tpng < ../lesson4/graph.in > ../lesson4/graph.png
 ```
 
 ** if you don't have "dot", ```brew install graphviz```
+
+## CMake
+
+### CMake Lesson
+
+lesson1 : <https://youtu.be/eJNp-hQ-dTI>\
+
+#### CMake Lesson 1: build
+
+```bash
+cd  lesson1/build
+cmake ../
+make
+./quickbits
+```
+
+** if you don't have "cmake", ```brew install cmake```
