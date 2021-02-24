@@ -49,11 +49,24 @@ dot -Tpng < ../lesson4/graph.in > ../lesson4/graph.png
 ### CMake Lesson
 
 lesson1 : <https://youtu.be/eJNp-hQ-dTI>\
+lesson2 : <https://youtu.be/_diH39da2ZU>\
+lesson3 : <https://youtu.be/QmgThji3P00>
 
 #### CMake Lesson 1: build
 
 ```bash
 cd  lesson1/build
+cmake ../
+make
+./quickbits
+```
+
+** if you don't have "cmake", ```brew install cmake```
+
+#### CMake Lesson 2: library
+
+```bash
+cd  lesson2/build
 cmake ../
 make
 ./quickbits
