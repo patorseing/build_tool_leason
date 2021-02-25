@@ -50,7 +50,9 @@ dot -Tpng < ../lesson4/graph.in > ../lesson4/graph.png
 
 lesson1 : <https://youtu.be/eJNp-hQ-dTI>\
 lesson2 : <https://youtu.be/_diH39da2ZU>\
-lesson3 : <https://youtu.be/QmgThji3P00>
+lesson3 : <https://youtu.be/QmgThji3P00>\
+lesson4 : <https://youtu.be/o6ZKnr0CRwc>\
+lesson5 : <https://youtu.be/4EarwWM_VBw>
 
 #### CMake Lesson 1: build
 
@@ -72,4 +74,20 @@ make
 ./quickbits
 ```
 
-** if you don't have "cmake", ```brew install cmake```
+#### CMake Lesson 3: add package
+
+```bash
+cd  lesson3/build
+cmake ../
+make
+./panda
+```
+
+#### CMake Lesson 4: add package
+
+```bash
+cd  lesson4/build
+cmake ../ -DCMAKE_BUILD_TYPE=Release
+make
+./panda
+```
