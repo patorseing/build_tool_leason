@@ -91,3 +91,12 @@ cmake ../ -DCMAKE_BUILD_TYPE=Release
 make
 ./panda
 ```
+
+#### CMake Lesson 5: add env
+
+```bash
+cd  lesson5/build
+cmake ../ -DCMAKE_BUILD_TYPE=Release
+make
+./panda
+```

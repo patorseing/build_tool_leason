@@ -1,0 +1,2 @@
+#define quickbits_VERSION_MAJOR @quickbits_VERSION_MAJOR@
+#define quickbits_VERSION_MINOR @quickbits_VERSION_MINOR@
