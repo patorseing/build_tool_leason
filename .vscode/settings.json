@@ -61,9 +61,14 @@
     "stop_token": "cpp",
     "streambuf": "cpp",
     "typeinfo": "cpp",
-    "variant": "cpp"
+    "variant": "cpp",
+    "any": "cpp",
+    "forward_list": "cpp",
+    "list": "cpp",
+    "iomanip": "cpp"
   },
   "cSpell.words": [
     "wowza"
-  ]
+  ],
+  "C_Cpp.errorSquiggles": "Disabled"
 }

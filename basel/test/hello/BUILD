@@ -14,5 +14,9 @@ cc_binary(
 cc_test(
   name = "hello-test",
   srcs = ["hello_test.cc"],
-  deps = [":hello_lib"],
+  deps = [
+    ":hello_lib",
+    "@gtest//:gtest",
+    "@gtest//:gtest_main" # Only if hello_test.cc has no main()
+  ],
 )
